@@ -9,7 +9,6 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { Loading } from "./LoadingComponent";
-import { baseUrl } from "../shared/baseUrl";
 import { FadeTransform, Fade, Stagger } from "react-animation-components";
 
 function About(props) {
@@ -18,7 +17,7 @@ function About(props) {
       <Fade in>
         <Media tag="li" key={leader.id} className="col-12 mt-5">
           <Media left middle>
-            <Media object src={baseUrl + leader.image} alt={leader.name} />
+            <Media object src={leader.image} alt={leader.name} />
           </Media>
           <Media body className="ml-5">
             <Media heading>{leader.name}</Media>

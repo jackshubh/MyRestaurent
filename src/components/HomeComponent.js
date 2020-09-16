@@ -8,7 +8,7 @@ import {
   CardSubtitle,
 } from "reactstrap";
 import { Loading } from "./LoadingComponent";
-import { baseUrl } from "../shared/baseUrl";
+
 import { FadeTransform } from "react-animation-components";
 
 function RenderCard({ item, isLoading, errMess }) {
@@ -25,7 +25,7 @@ function RenderCard({ item, isLoading, errMess }) {
         }}
       >
         <Card>
-          <CardImg src={baseUrl + item.image} alt={item.name} />
+          <CardImg src={item.image} alt={item.name} />
           <CardBody>
             <CardTitle>
               <h3>{item.name}</h3>
