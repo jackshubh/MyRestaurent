@@ -50,15 +50,15 @@ class Contact extends Component {
           <div className="col-12 col-sm-4 offset-sm-1">
             <h5>Our Address</h5>
             <address>
-              121, Clear Water Bay Road
+              B/2M, Kesar Bagh Colony
               <br />
-              Clear Water Bay, Kowloon
+              Scheme no 103, Behind Chameli Devi School
               <br />
-              HONG KONG
+              Indore M.P, India
               <br />
-              <i className="fa fa-phone"></i>: +852 1234 5678
+              <i className="fa fa-phone"></i>: +91 7507169121
               <br />
-              <i className="fa fa-fax"></i>: +852 8765 4321
+              <i className="fa fa-fax"></i>: +91 7507169121
               <br />
               <i className="fa fa-envelope"></i>:{" "}
               <a href="mailto:shubham.sara@gmail.com">confusion@food.net</a>

@@ -99,7 +99,7 @@ class Main extends Component {
 
     const DishWithId = ({ match }) => {
       //{match, location, history} but we ignore location and history
-      
+
       return (
         <DishDetail
           dish={
